@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol SCTiledImageScrollViewDelegate: class {
+public protocol SCTiledImageScrollViewDelegate: AnyObject {
     func tiledImageScrollViewDidScrollOrZoom(_ tiledImageScrollView: SCTiledImageScrollView)
 }
 
